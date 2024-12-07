@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar and Footer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">LOGO</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1 style="text-align: center; margin-top: 50px;">Welcome to the Page</h1>
+    <p style="text-align: center;">Content goes here...</p>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Your Company. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Toggle menu for mobile devices
+    function toggleMenu() {
+      const navList = document.querySelector('.navbar ul');
+      navList.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
