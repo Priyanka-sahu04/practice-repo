@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">LOGO</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </nav>
+  
     <div class="home-page">
         <h1 class="carousel-heading">Carousel</h1>
 
@@ -39,6 +50,19 @@
 
         <p class="carousel-para">A carousel is a slideshow-like component commonly used in websites to display a collection of content, such as images, text, or videos, in a rotating or sliding manner. It allows users to view multiple items in the same space by navigating through them using arrows, dots, or automatic transitions.</p>
     </div>
+  
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Your Company. All rights reserved.</p>
+  </footer>
+  
+  <script>
+    // Toggle menu for mobile devices
+    function toggleMenu() {
+      const navList = document.querySelector('.navbar ul');
+      navList.classList.toggle('active');
+    }
+  </script>
 
     
 </body>
