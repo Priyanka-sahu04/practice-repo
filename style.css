@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-heading {
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+}
+
+.carousel-heading:hover {
+    color: rgb(124, 33, 228);
+}
+
+#carouselExampleSlidesOnly {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2rem;
+} 
+
+img {
+    max-height: 35rem;
+}
+
+.home-page {
+    height: 100vh;
+    background-color: #f9f9f9b7;
+    padding-top: 5rem;
+}
+
+.carousel-para {
+    width: clamp(10rem, 50vw, 50rem);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
